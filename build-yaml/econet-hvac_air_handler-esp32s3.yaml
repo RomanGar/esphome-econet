@@ -15,10 +15,10 @@ packages:
     ref: main
     file: econet_hvac_air_handler.yaml
   # Uncomment if you have an communicating Outdoor Unit
-  # econet-hvac-odu:
-  #   url: https://github.com/esphome-econet/esphome-econet
-  #   ref: main
-  #   file: econet_hvac_odu.yaml
+   econet-hvac-odu:
+     url: https://github.com/esphome-econet/esphome-econet
+     ref: main
+     file: econet_hvac_odu.yaml
 
 dashboard_import:
   package_import_url: github://esphome-econet/esphome-econet/build-yaml/econet-hvac_air_handler-esp32s3.yaml@${github_ref}
